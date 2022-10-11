@@ -1,0 +1,283 @@
+/*
+Color codes: #ff5f00 (Orange) and #01206d (Dark Blue)
+*/
+body{
+  font-family: "Montserrat";
+  text-align: center;
+  background-color: #e9ecef;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+}
+
+.btn{
+  background-color: #ff5f00;
+  color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px 20px;
+}
+
+.intro-row{
+  padding-left: calc(var(--bs-gutter-x) * 6);
+}
+
+/* row */
+.row-h2{
+  font-size: 1.8rem;
+  line-height: 1;
+  text-align: left;
+  font-weight: 500;
+  /* padding-left: calc(var(--bs-gutter-x) * 6); */
+}
+
+/* Heading */
+.big-heading{
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.3;
+  font-weight: 500;
+  /* padding-left: calc(var(--bs-gutter-x) * 6); */
+}
+
+.row-p{
+  font-size: 1.5rem;
+  line-height: 1;
+  text-align: left;
+}
+
+
+.btn-viewcourse{
+  font-size: 15px;
+  text-align: left;
+}
+
+.btnNav{
+  margin: 5px;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+  width: 150px;
+}
+.fa{
+  padding: 0 10px 0 10px;
+}
+/* Containers */
+.container-fluid{
+}
+
+#title .container-fluid{
+  padding: 0.3% 3% 2%;
+  text-align: left;
+}
+
+/* title image */
+.title-image{
+  width: 50%;
+  /* height: 75%; */
+  position: absolute;
+  right: 8%;
+}
+
+/* Our Course */
+#course{
+  position: relative;
+}
+.white-section{
+  padding: 60px 0 60px 0;
+}
+
+.course-head{
+  text-align: center;
+  line-height: 1rem;
+}
+
+.course-row{
+  margin: 20px;
+}
+
+.course-parag{
+  text-align: center;
+  padding-left: 0;
+  line-height: 1px;
+}
+
+.course-padding{
+  padding: 20px 20px;
+  position: absolute;
+}
+
+.img-course{
+  width: 25%;
+  height: 30%;
+}
+
+.card-course{
+  align-items: center;
+  padding: 20px 20px;
+  /* width: 18rem;
+  height: 20rem; */
+}
+.card-text{
+  padding: 0;
+}
+
+.course-box:hover{
+  background-color: #01206d;
+  color: #fff;
+}
+
+.course-box{
+  background-color: #fff;
+  padding: 4.5% 40px 20px 40px;
+  /* width: 10px;
+  height: 23rem; */
+  box-shadow: 10px;
+  margin: 10px;
+  border-radius: 2rem;
+  background-color: #f5f7f6;
+}
+
+/* Project management */
+#projectManagement{
+  padding: 5rem;
+  margin: 20px;
+}
+.PM-image{
+  width: 80rem;
+  height: 35rem;
+  position: relative;
+  float: left;
+}
+
+.PM-Des{
+  padding-top: 4rem;
+  text-align: left;
+}
+
+/* Course Category */
+.course-category-row{
+  margin: 2rem;
+  padding: 1% 15%;
+}
+.course-category-box{
+  background-color: #fff;
+  padding: 5%;
+  margin: 10px;
+  border-radius: 5rem 1rem;
+  text-align: left;
+}
+
+/* workwithus */
+#workwithus{
+  margin: 20px;
+  padding: 3% 13%;
+}
+
+.workwithus-body{
+  padding: 1%;
+}
+
+.workwithus-content{
+  margin: 3px;
+}
+
+.workwithus-body p{
+  font-size: 0.8rem;
+}
+
+.workwithus-body h3{
+  font-size: 1rem;
+  padding: 3% 0 3% 0;
+}
+
+/* webinar  */
+#webiner{
+  margin: 20px;
+  padding: 1% 15%;
+}
+.fls{
+  border: 1px solid;
+  border-radius: 5rem 2rem;
+  background-color: #01206d;
+  color: #fff;
+}
+
+.fls img{
+  border-radius: 5rem 0 0 2rem;
+}
+
+.webinar-form{
+  padding: 3rem;
+  text-align: left;
+}
+
+.webinar-form p{
+  font-size: 0.8rem;
+}
+
+/* Bolgs */
+#blogs{
+  margin: 20px;
+  padding: 1% 10%;
+  text-align: left;
+}
+.blog-head{
+  padding: 2%;
+}
+.blog-date{
+  padding: 1.5rem 0 1rem 0;
+}
+.btn-blogs{
+  background-color: #01206d;
+  color: #fff;
+}
+
+.card-title{
+  font-size: 0.8rem;
+}
+
+/* Frequent question */
+#questions{
+  margin: 20px;
+  padding: 2% 20%;
+  text-align: left;
+}
+
+/* footer */
+#footer{
+  background-color: #183266;
+}
+
+.footer-body{
+  margin: 20px;
+  padding: 2% 15%;
+  color: #fff;
+}
+
+.footer-content{
+  text-align: left;
+  font-size: 0.7rem;
+}
+
+.footer-icon{
+  background-color: #183266;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  border-radius: ;
+  /* padding: 15px 20px; */
+}
+
+hr{
+  color: #fff;
+  border: 1px solid;
+}
+.copy-right{
+  padding: 10px 10px;
+}
+.copy-right p{
+  color: #fff;
+  font-size: 0.8rem;
+}

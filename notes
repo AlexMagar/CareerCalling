@@ -1,0 +1,33 @@
+
+
+
+  <div class="owl-carousel owl-theme course-padding">
+    <div class="item">
+      <div class="card card-course" style="width: 18rem">
+        <img src="assets/image/online-learning.png" class="card-img-top img-course" alt="Online-course">
+        <div class="car-body ">
+          <h3 class="card-title">Online 24*7 Courses</h3>
+          <p class="card-text">Our online courses and programs are more convenoent and offer a more affordable option</p>
+        </div>
+      </div>
+        <div class="card card-course" style="width: 18rem">
+          <img src="assets/image/online-learning.png" class="card-img-top img-course" alt="Online-course">
+          <div class="car-body ">
+            <h3 class="card-title">Online 24*7 Courses</h3>
+            <p class="card-text">Our online courses and programs are more convenoent and offer a more affordable option</p>
+          </div>
+        </div>
+        <div class="card card-course" style="width: 18rem">
+          <img src="assets/image/online-learning.png" class="card-img-top img-course" alt="Online-course">
+          <div class="car-body ">
+            <h3 class="card-title">Online 24*7 Courses</h3>
+            <p class="card-text">Our online courses and programs are more convenoent and offer a more affordable option</p>
+          </div>
+        </div>
+        <div class="card card-course" style="width: 18rem">
+          <img src="assets/image/online-learning.png" class="card-img-top img-course" alt="Online-course">
+          <div class="car-body ">
+            <h3 class="card-title">Online 24*7 Courses</h3>
+            <p class="card-text">Our online courses and programs are more convenoent and offer a more affordable option</p>
+          </div>
+        </div>

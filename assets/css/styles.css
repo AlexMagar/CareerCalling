@@ -10,6 +10,41 @@ body{
 h1, h2, h3, h4, h5, h6{
   font-family: "Montserrat";
 }
+a,a:hover{
+  text-decoration: none;
+}
+
+/* Search button */
+.searchBox{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchText{
+  width: 0rem;
+  border-radius: 4rem;
+  border: none;
+  transition: all 0.2s linear;
+}
+.searchBtn{
+  position: absolute;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  right: -0.6rem;
+}
+
+.searchBox:hover > .searchText{
+  width: 11rem;
+  padding: 0.3rem;
+  box-shadow: 0 1rem 1rem 0 rgba(0,0,0,0.5);
+}
+
+.searchBox:hover > searchBtn{
+
+}
 
 .btn{
   background-color: #ff5f00;
